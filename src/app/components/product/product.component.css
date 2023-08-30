@@ -1,0 +1,42 @@
+.main{
+    margin-top: 100px;
+}
+.heading{
+    width: 100%;
+    text-align: center;
+}.heading h2{
+    font-size: 36px;
+    margin-bottom: 0PX;
+    padding-bottom: 0px;
+    font-family: cursive;
+    color: orangered;
+}.heading img{
+    width: 30%;
+}
+
+
+
+.product{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card{
+    min-width: 200px;
+    width: 25%;
+    margin: 20px auto;
+    border:2px solid gray;
+    overflow: hidden;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 1rem;
+    color: gray;
+    text-shadow: 1px -1px 2px rgb(255, 0, 0);
+}.card img{
+    width: 100%;
+    height: auto;
+    transition: transform .3s;
+}.card:hover img{
+    transform: scale(1.1);
+}
